@@ -56,7 +56,7 @@ red = pygame.Color(255, 0, 0)
 green = pygame.Color(0, 255, 0)
 blue = pygame.Color(0, 0, 255)
 
-# Biến số khung hình trên dây
+# Biến số khung hình trên giây
 fps_controller = pygame.time.Clock()
 
 while run: # Vòng lặp chính của game
