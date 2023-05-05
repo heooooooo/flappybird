@@ -40,7 +40,7 @@ def show_score(choice ,color, font, size): # Hàm tính điểm
 
 def game_over(): # Hàm khi thua game
     my_font = pygame.font.SysFont('times new roman', 50) # Phông chữ
-    game_over_surface = my_font.render('ĐẲNG CẤP', True, red)  # tương tự như in điểm
+    game_over_surface = my_font.render('BẠN ĐÃ THUA', True, red)  # tương tự như in điểm
     game_over_rect = game_over_surface.get_rect()
     game_over_rect.midtop = (window_x/2, window_y/4)
     game_window.fill(black)
